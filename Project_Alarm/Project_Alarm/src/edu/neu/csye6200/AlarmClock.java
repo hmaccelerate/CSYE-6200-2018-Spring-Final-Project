@@ -1,7 +1,6 @@
 package edu.neu.csye6200;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class AlarmClock {
@@ -9,6 +8,7 @@ public class AlarmClock {
 	
 	public void setClock(int h, int m, int repeatType) {
 		Clock clk = new Clock(h, m, repeatType);
+		clockList.add(clk);
 		
 	}
 }
